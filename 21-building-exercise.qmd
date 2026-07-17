@@ -13,8 +13,7 @@ git clone https://github.com/byu-strategy/research-scout-starter.git
 cd research-scout-starter
 ```
 
-<!-- TODO: repo goes live by mid-July -->
-*(Starter repo live by mid-July. It contains a README, the prompt template below, and `sample-data.json` — see the offline fallback at the bottom of this page.)*
+*(Repo is live. It contains a README, the prompt template below, and `sample-data.json` — see the offline fallback at the bottom of this page.)*
 
 Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`.
 

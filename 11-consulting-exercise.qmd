@@ -13,8 +13,7 @@ git clone https://github.com/byu-strategy/aom-impact-dataroom.git
 cd aom-impact-dataroom
 ```
 
-<!-- TODO: repo goes live by mid-July -->
-*(Data-room repo live by mid-July.)*
+*(Repo is live.)*
 
 Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md` — it's the engagement brief. The folder is a consultant's data dump: real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature in `documents/`, and clearly-labeled composite interviews in `interviews/`.
 
