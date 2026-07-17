@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "AOM 2026 PDW — Hands-On AI Workshops"
+  favicon: favicon.svg
+  author: "Scott Murff"
+  date: "7/31/2026"
+  chapters:
+    - part: "Getting Started"
+      chapters:
+        - index.qmd
+        - 00-setup.qmd
+        - 01-claude-code-101.qmd
+    - part: "Building Workshop (TIM · Fri)"
+      chapters:
+        - 20-building-brief.qmd
+        - 21-building-exercise.qmd
+        - 22-building-debrief.qmd
+    - part: "Consulting Workshop (MC · Sat)"
+      chapters:
+        - 10-consulting-brief.qmd
+        - 11-consulting-exercise.qmd
+        - 12-consulting-debrief.qmd
+    - part: "Go Deeper"
+      chapters:
+        - 97-prompts.qmd
+        - 98-power-users.qmd
+        - 99-resources.qmd
+
+bibliography: references.bib
+csl: informs.csl
+
+format:
+  html:
+    include-in-header: _header.html
+    include-after-body: _footer.html
+    theme: cosmo
+    link-external-newwindow: true
+    css: styles.css
+    toc: true
+    number-sections: false
+
+execute:
+  eval: false
+
+mermaid:
+  theme: default
+
+toc-title: On this page

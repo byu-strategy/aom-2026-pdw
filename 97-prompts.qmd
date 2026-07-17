@@ -1,0 +1,140 @@
+---
+title: "Prompt Library"
+---
+
+::: {.callout-tip}
+## Quick copy
+Every prompt is in a copyable code block. Fill in the bracketed placeholders with your specifics.
+:::
+
+## Workshop starters
+
+### Research Scout scaffold (TIM build)
+
+```
+Build a web app that searches the OpenAlex API for academic papers on a
+topic and shows title, authors, venue, year, citations, DOI.
+API pattern:
+https://api.openalex.org/works?search=TOPIC&filter=from_publication_date:2022-01-01&sort=cited_by_count:desc
+```
+
+### Consulting case — diagnose
+
+```
+Read this data room and give me the 5 key facts and your hypothesis
+on why impact lags.
+```
+
+### Consulting case — structure
+
+```
+Build a MECE issue tree for: "How can AOM increase the real-world
+impact of management scholarship?" Ground each branch in evidence
+from the data room. Write it to issue-tree.md.
+```
+
+### Consulting case — communicate
+
+```
+Write a one-page Pyramid-Principle recommendation to the AOM Board
+of Governors: lead with the answer, then 3 supporting arguments,
+each grounded in data-room evidence. Write it to recommendation.md.
+```
+
+## General-purpose prompts
+
+### Meta prompt: generate a custom prompt
+
+Use this to have AI write the prompt you actually need:
+
+```
+I need you to create a detailed prompt that will help me [specific task].
+
+Context about my project:
+- Product: [description]
+- Current phase: [discovery/design/implementation]
+- Key constraints: [list any constraints]
+
+The prompt should:
+1. Guide me to think through all critical aspects
+2. Help me avoid common pitfalls
+3. Produce output in [desired format]
+4. Be reusable for similar tasks
+
+Generate a comprehensive prompt I can use with an LLM to accomplish this task.
+```
+
+### Architecture first
+
+Before building anything nontrivial, get a plan on paper:
+
+```
+I'm building [description of your product - the more detailed the better].
+
+Give me the full architecture:
+- File + folder structure
+- What each part does
+- Where state lives, how services connect
+
+Format this entire document in markdown.
+```
+
+Save the output as `architecture.md` in your project folder.
+
+### Task breakdown
+
+```
+Using that architecture, write a granular step-by-step plan to build
+the MVP. Each task should:
+- Be incredibly small + testable
+- Have a clear start + end
+- Focus on one concern
+
+I'll complete one task at a time, testing in between.
+```
+
+Save as `tasks.md`.
+
+### Coding protocol (keep AI on rails)
+
+Paste this alongside any build request — it prevents the sprawl:
+
+```
+Coding instructions:
+- Write the absolute minimum code required
+- No sweeping changes
+- No unrelated edits - focus on just the task you're on
+- Make code precise, modular, testable
+- Don't break existing functionality
+- If I need to do anything manually, tell me clearly
+```
+
+### Interrogate the output
+
+The judgment 20%, as prompts:
+
+```
+Which of your claims is actually supported by evidence in these files?
+Cite the file for each.
+```
+
+```
+Steelman the opposite conclusion. What evidence here cuts against
+your recommendation?
+```
+
+```
+Explain what this file does in plain language, as if to a colleague
+who doesn't code.
+```
+
+### Deploy
+
+```
+Create a new GitHub repo for this project and push the code to it.
+Then walk me through deploying it to Vercel.
+```
+
+## Going further
+
+The full spec-driven development prompt set (PRDs, user stories, EARS requirements, data models, API design, test cases) lives in the [AI PM Bootcamp prompt library](https://byu-strategy.github.io/ai-pm-bootcamp/99-prompts.html).

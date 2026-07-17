@@ -1,0 +1,40 @@
+---
+title: "Claude Code 101"
+---
+
+A five-minute orientation. If you've completed [Setup](00-setup.qmd), you have everything on this page installed.
+
+## What Claude Code is
+
+Claude Code is **agentic AI in your editor**. A chatbot answers questions; Claude Code *does work*. Running in the VS Code terminal, it can:
+
+- **Read files** — an entire folder of documents, data, or code
+- **Write files** — create and edit documents, spreadsheets-as-CSV, code, slides
+- **Run commands** — install software, start a web server, push to GitHub
+
+You describe what you want in plain English. It plans, acts, and shows you what it did. You approve or redirect.
+
+## Why this is no longer an engineering tool
+
+Two years ago this workflow required knowing how to code. The interface was the barrier. That barrier is gone: the interface is now natural language, and the AI handles translation into code, commands, and file operations. What's left for you is the part that was always the hard part — knowing **what** to ask for, judging whether the output is **right**, and deciding what to do **next**. That's a consultant's skill set. It's a product manager's skill set. It's a researcher's skill set.
+
+Both workshops are built on that premise, and both let you test it against your own experience.
+
+## The essential interactions
+
+Eight moves cover almost everything you'll do in the workshops:
+
+1. **Open a folder.** In VS Code: File → Open Folder. Claude Code works in whatever folder you have open — that folder is its world.
+2. **Start Claude.** Terminal → New Terminal, then type `claude`.
+3. **Describe what you want.** Plain English, specific about the outcome: "Read every file in this folder and summarize the key facts."
+4. **Approve actions.** Claude asks permission before editing files or running commands. Press Enter to approve; read what it's proposing first.
+5. **Review what changed.** When Claude edits a file, it shows a diff — lines removed and added. Skim it. You're the editor-in-chief.
+6. **Ask it to explain.** "Why did you structure it that way?" or "Explain what this file does" — it will, in plain language.
+7. **Redirect.** Output not right? Say so, specifically: "Too generic — ground every claim in a number from the data." Iteration is the workflow, not a failure of it.
+8. **Start fresh when switching tasks.** Type `/clear` between unrelated tasks so old context doesn't muddy new work.
+
+## One habit that matters
+
+Treat Claude Code like a **brilliant, fast, overconfident junior colleague**. Delegate real work to it, but check the work. Where it's wrong is exactly what we'll be discussing in the debriefs.
+
+Want more? The [Power Users](98-power-users.qmd) page covers context management, CLAUDE.md files, and skills.

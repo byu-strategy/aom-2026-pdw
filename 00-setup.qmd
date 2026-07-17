@@ -1,0 +1,109 @@
+---
+title: "Setup (Required)"
+---
+
+*Plan for about 30 minutes. Complete this on your own **before** your workshop — there is no setup time in the room.*
+
+**Laptop requirement:** Bring your own Windows or macOS laptop (4GB+ RAM), plus a charging cord.
+
+**If you get stuck at any point:** take a screenshot or copy the error text into Claude (or any AI chatbot) and ask for help troubleshooting. One or two loops usually unblocks you. Still stuck? Email [strategy-program@byu.edu](mailto:strategy-program@byu.edu) — or come 15 minutes early and the triage table will sort you out.
+
+## 1. Sign up for Claude Pro
+
+*Skip if you already have a paid Claude account.*
+
+Claude Pro is a **paid subscription (~$20/month)**. We're telling you plainly so nobody feels ambushed: the workshops require it, one month is enough, and you can downgrade or cancel afterward.
+
+- [ ] Go to [claude.com/pricing](https://www.claude.com/pricing)
+- [ ] Sign up for **Claude Pro** ($20/month, or $17/month paid annually)
+
+## 2. Create a free GitHub account
+
+- [ ] Go to [github.com](https://github.com/)
+- [ ] Create a **free account**
+
+## 3. Create a free Vercel account
+
+*Needed for the Friday (TIM) build's deploy step — but do it now regardless; it takes one minute.*
+
+- [ ] Go to [vercel.com](https://vercel.com/)
+- [ ] Sign up for a **free account** — sign up **with your GitHub account** for easier deployment
+
+## 4. Install Visual Studio Code (VS Code)
+
+- [ ] Download from [code.visualstudio.com](https://code.visualstudio.com/)
+- [ ] During installation, if prompted:
+  - [ ] Check **"Add to PATH"**
+  - [ ] Enable **"Open with Code"** context-menu option (Windows users)
+
+## 5. Install Claude Code inside VS Code
+
+- [ ] Open **VS Code**
+- [ ] In the top menu bar, click **Terminal → New Terminal**
+  - This opens the **integrated terminal** at the bottom of VS Code — the terminal is where you'll run commands. You should see something like:
+
+    ```
+    PS C:\Users\YourName>   ← Windows
+    or
+    yourname@MacBook-Pro ~ %   ← macOS
+    ```
+
+Now install the **Claude Code CLI (command-line interface)** — the tool that connects VS Code directly to Claude.
+
+::: {.callout-tip}
+**Troubleshooting tip:** If something errors out, paste the error message and surrounding context into an AI chatbot and follow its instructions. Errors are usually missing dependencies; the chatbot will walk you through installing them.
+:::
+
+- [ ] Copy and paste **one** of these into the terminal (match your operating system), then press **Enter**:
+
+**On Windows**
+
+```bash
+irm https://claude.ai/install.ps1 | iex
+```
+
+**On macOS**
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+- [ ] When installation finishes, confirm it worked:
+
+```bash
+claude --version
+```
+
+You should see output similar to:
+
+```bash
+2.0.31 (Claude Code)
+```
+
+- [ ] Start Claude Code:
+
+```bash
+claude
+```
+
+You'll be prompted to authenticate with your Claude Pro account via a browser tab. Sign in, then return to VS Code — you should see the Claude Code welcome screen in the terminal.
+
+Congratulations — you now have an agentic AI on your machine. Use it to finish the setup. Paste this prompt into the terminal where Claude Code is active:
+
+> Please help me to install the following softwares or confirm they are already installed: 1) git, 2) node
+
+Press **Enter** to approve when Claude asks to proceed. Claude Code works like a chatbot that can also run commands — it will complete the remaining installations with your approval.
+
+> **Note on using the terminal**
+>
+> The terminal isn't a normal text editor — you **can't click into the middle of a line**. Use the **arrow keys** to move within the command you're typing, **Backspace/Delete** to erase, **↑** to recall your last command, and **↓** to move forward through history.
+
+## 6. Verify your setup (2 minutes)
+
+Do this before you travel. All three checks pass = you're ready for either room.
+
+- [ ] In the VS Code terminal, run `claude --version` — you see a version number
+- [ ] Run `git --version` — you see a version number
+- [ ] Run `claude`, ask it anything ("say hello"), and confirm it responds — this proves you're logged in to your Claude account
+
+If any check fails, work the troubleshooting loop above or email us. **Do not wait until you're in the room.**

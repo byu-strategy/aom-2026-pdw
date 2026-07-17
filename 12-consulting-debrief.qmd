@@ -1,0 +1,34 @@
+---
+title: "Consulting Debrief"
+---
+
+## Debrief questions (groups of 3–4, then full room)
+
+Stay on the workflow you just ran — the publishing-reform debate gets its turn in the research segment:
+
+1. **What did AI do well?** Which parts of diagnose → structure → communicate would you have billed for as-is?
+2. **Where did you add judgment?** Name the specific moment — a glib synthesis, a politically naive branch, a lever AOM doesn't actually control — where your expertise changed the output.
+3. **What surprised you?** In either direction: better than expected, or wrong in a way you didn't see coming.
+
+## What should we be studying?
+
+The field experiments told us AI makes knowledge workers faster — you just *felt* it. What nobody has published is what this does to pyramids, pricing, and the profession of consulting itself. That's yours to take. OpenAlex counts for "generative AI + knowledge work": 2022: 29 → 2023: 171 → 2024: 360 → 2025: 776 → 2026 (mid-July): 932 — but papers taking *consulting firms as the phenomenon* remain rare. The tools, sites, and theory are ready; the consulting-specific questions are wide open.
+
+**Add your questions to the shared doc:** [Shared Google Doc — link live by session day](#) <!-- TODO: insert shared Google Doc URL -->
+
+Ten seed questions to react to:
+
+1. When AI compresses the junior–senior skill gap, does the consulting pyramid invert, flatten, or persist for institutional reasons? [Noy & Zhang 2023, doi.org/10.1126/science.adh2586; Dell'Acqua et al. 2026, doi.org/10.1287/orsc.2025.20702]
+2. How do PSFs re-price expertise when marginal deliverable cost approaches zero — does value-based pricing finally displace billable hours? [Spring et al. 2022, doi.org/10.1002/joom.1215]
+3. Do clients discount recommendations they know were AI-generated, and what disclosure norms emerge? [Vanneste & Puranam 2024, doi.org/10.5465/amr.2022.0041]
+4. What replaces apprenticeship when AI does the work juniors used to learn by doing — can "novice risk work" dynamics be designed around? [Kellogg et al. 2025, doi.org/10.1016/j.infoandorg.2025.100559]
+5. Where is consulting's own "jagged frontier": which advisory tasks (diagnosis, framing, client politics) resist AI, and why? [Dell'Acqua et al. 2026, doi.org/10.1287/orsc.2025.21838]
+6. Does "artificial certainty" make AI-assisted consultants more persuasive but less correct — and how do clients detect the difference? [Leonardi & Leavell 2026, doi.org/10.1287/orsc.2023.18224]
+7. If AI substitutes for some teamwork functions, what is the optimal engagement team size and composition — does the engagement team survive as the unit of delivery? [Dell'Acqua et al. 2026 "The Cybernetic Teammate," doi.org/10.1287/orsc.2025.20702; Raisch & Fomina 2024, doi.org/10.5465/amr.2021.0421]
+8. As client firms adopt AI directly, does demand for external consultants shrink (disintermediation) or shift toward AI-implementation advisory? [Alekseeva et al. 2026, doi.org/10.1002/smj.70099]
+9. What is "relational expertise" worth in consulting — is client-context knowledge the last durable moat, and how is it priced? [Pakarinen & Huising 2023, doi.org/10.1111/joms.12915]
+10. How do agentic/multi-agent AI workflows change the boundary of the consulting firm — does "consultant + agent swarm" become a new organizational form, and who bears liability for its advice? [Randazzo et al. 2024, doi.org/10.2139/ssrn.4921696]
+
+## One more thing
+
+We'll synthesize the room's issue trees and recommendations into a single memo and send it to AOM and MC-division leadership — 60 domain experts on one engagement is real input. Your case work today doubles as pro-bono discovery.

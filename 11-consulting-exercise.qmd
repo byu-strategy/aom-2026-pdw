@@ -1,0 +1,73 @@
+---
+title: "Case: Client = AOM"
+---
+
+The 38-minute hands-on engagement, in three tasks. Prompts below are starting points — adapt them; specificity is the skill.
+
+## Step 0. Get the data room (2 min)
+
+Clone the engagement data room (or download the zip if you'd rather skip git):
+
+```bash
+git clone https://github.com/byu-strategy/aom-impact-dataroom.git
+cd aom-impact-dataroom
+```
+
+<!-- TODO: repo goes live by mid-July -->
+*(Data-room repo live by mid-July.)*
+
+Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md` — it's the engagement brief. The folder is a consultant's data dump: real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature in `documents/`, and clearly-labeled composite interviews in `interviews/`.
+
+## Task 1. Diagnose (12 min)
+
+Work the data room the way you'd work a client's. Starter prompt:
+
+```
+Read this data room and give me the 5 key facts and your hypothesis
+on why impact lags.
+```
+
+Claude Code will read every file and compute from the real CSVs. Then push back:
+
+- "Which of those facts is actually supported by a number in the data? Cite the file."
+- "The journal editor's interview cuts against your hypothesis. Reconcile them."
+- "What's missing from this data room that a real engagement would need?"
+
+## Task 2. Structure (13 min)
+
+Build a MECE issue tree for the engagement question and write it to a file:
+
+```
+Build a MECE issue tree for: "How can AOM increase the real-world
+impact of management scholarship?" Ground each branch in evidence
+from the data room. Write it to issue-tree.md.
+```
+
+Review the diff before approving. Then interrogate the structure:
+
+- "Are these branches actually mutually exclusive? Where do they overlap?"
+- "Which branches does AOM actually control? Restructure around levers AOM can pull vs. influence."
+- (That last one matters — noticing that AOM doesn't set tenure standards or own the rankings is the judgment work of this case.)
+
+## Task 3. Communicate (13 min)
+
+Turn the analysis into a one-page recommendation using the Pyramid Principle — answer first, then supporting arguments, then evidence:
+
+```
+Write a one-page Pyramid-Principle recommendation to the AOM Board
+of Governors: lead with the answer, then 3 supporting arguments,
+each grounded in data-room evidence. Respect the engagement's
+non-goals (no lowering of standards, no attacking journals).
+Write it to recommendation.md.
+```
+
+Then edit like a partner reviewing an associate's draft: is the lead actually the answer? Would the Board find any sentence naive?
+
+**Stretch goal:** "Render recommendation.md as a single clean HTML slide I can open in a browser."
+
+## Before the debrief
+
+Jot one example of each — you'll use them in the [debrief](12-consulting-debrief.qmd):
+
+- Something AI did well enough to bill for
+- Somewhere you had to add judgment it couldn't supply

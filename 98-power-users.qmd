@@ -1,0 +1,57 @@
+---
+title: "Power Users"
+---
+
+You've run the workshop workflow. This page is the condensed version of what separates occasional users from people who get AI leverage daily: context management, CLAUDE.md, and skills.
+
+## Context management
+
+Every Claude session has a context window — a limit on how much information is active at once. Short tasks never hit it; long working sessions do, and performance degrades quietly. Three habits fix most of it:
+
+**Be explicit about what matters.** At the start of a complex task, tell Claude what to hold onto:
+
+> "We're analyzing the field-trends data. Remember: all claims must cite a specific CSV column, and the client is the AOM Board — formal tone."
+
+**Clear context between tasks.** Use `/clear` when switching to unrelated work. A fresh session beats a muddy one.
+
+**Persist knowledge in files, not chat.** Ask Claude to write summaries, decisions, and plans to markdown files (`notes.md`, `tasks.md`). Files survive; conversation context doesn't.
+
+## CLAUDE.md — persistent project memory
+
+Instead of re-explaining your project's conventions every session, put them in a `CLAUDE.md` file at the root of your project folder. Claude Code reads it automatically at the start of every session.
+
+```markdown
+# Research Scout — Conventions
+
+- Data source: OpenAlex API (api.openalex.org), no auth key
+- If the API is unreachable, fall back to sample-data.json
+- Keep the app a single-page static site — no backend
+- Cite DOIs as https://doi.org/... links
+```
+
+Rule of thumb: **CLAUDE.md** holds what's always true about the project (stack, conventions, constraints). Chat holds what's true about today's task.
+
+## Skills — reusable expert modes
+
+Skills are instruction packages Claude loads for specific tasks — a folder containing a `SKILL.md` with YAML frontmatter plus markdown instructions. Instead of re-describing your deliverable format every time, define it once:
+
+```markdown
+---
+name: client-memo
+description: Write client memos in our house style
+---
+
+# Client Memo Standards
+- Pyramid Principle: answer first, then arguments, then evidence
+- One page maximum
+- Every claim cites a source document
+- No hedging language in the lead
+```
+
+Save to `.claude/skills/client-memo/SKILL.md` in your project, then invoke it with `/client-memo` (or just ask for a client memo — Claude finds it). Anthropic also publishes a library of ready-made skills (Excel, Word, PowerPoint, PDF) at [github.com/anthropics/skills](https://github.com/anthropics/skills).
+
+**Skills vs. CLAUDE.md:** CLAUDE.md is project-specific and always active; skills are task-specific and portable across projects.
+
+## Where to go next
+
+Beyond these three: running multiple Claude sessions in parallel and connecting external tools via MCP servers. The full chapter is in the [AI PM Bootcamp](https://byu-strategy.github.io/ai-pm-bootcamp/04-power-users.html).

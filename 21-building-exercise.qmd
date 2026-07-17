@@ -1,0 +1,77 @@
+---
+title: "Build: Research Scout"
+---
+
+The 55-minute build, in four steps. Work at your own pace — the timings are guardrails, not a race.
+
+## Step 0. Get the starter (2 min, part of scaffold time)
+
+Clone the starter repo (or download it as a zip if you'd rather skip git):
+
+```bash
+git clone https://github.com/byu-strategy/research-scout-starter.git
+cd research-scout-starter
+```
+
+<!-- TODO: repo goes live by mid-July -->
+*(Starter repo live by mid-July. It contains a README, the prompt template below, and `sample-data.json` — see the offline fallback at the bottom of this page.)*
+
+Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`.
+
+## Step 1. Scaffold (10 min)
+
+Paste this starter prompt into Claude Code:
+
+```
+Build a web app that searches the OpenAlex API for academic papers on a
+topic and shows title, authors, venue, year, citations, DOI.
+API pattern:
+https://api.openalex.org/works?search=TOPIC&filter=from_publication_date:2022-01-01&sort=cited_by_count:desc
+```
+
+Approve Claude's actions as it works. When it says it's done, ask it to run the app locally and open it in your browser. Search a topic you care about. You should see real papers.
+
+## Step 2. Iterate (25 min)
+
+This is the divergence phase — make it yours. Pick features you'd actually use and describe them in plain English. Ideas:
+
+1. **Publication-trend chart** — "Add a chart of publications per year for the current search. Use the OpenAlex group_by parameter: `https://api.openalex.org/works?search=TOPIC&group_by=publication_year`."
+2. **Venue filter** — "Let me filter results to a specific journal or venue."
+3. **Citation sort toggle** — "Add a toggle to sort by citations vs. recency."
+4. **BibTeX export** — "Add a button that exports my shortlist as a BibTeX file."
+5. **Saved shortlist pane** — "Let me save papers to a shortlist that persists in the browser."
+6. **Compare two topics** — "Add a view that compares two search topics side by side, including their trend lines."
+7. **Abstract preview** — "Show the abstract when I click a paper." (OpenAlex returns abstracts as an inverted index — tell Claude that; watch it cope.)
+8. **Open-access filter** — "Add a filter for open-access papers only."
+9. **Mobile layout** — "Make it look good on a phone." (You'll want this for the deploy step.)
+10. **Your call** — the best feature is the one you wish existed. Describe it.
+
+After each feature: test it, and if it's not right, say specifically what's wrong. Iteration is the workflow.
+
+## Step 3. Deploy (10 min)
+
+Ship it to the public internet.
+
+1. **Push to GitHub via Claude Code.** In the Claude terminal:
+
+   ```
+   Create a new GitHub repo for this project and push the code to it.
+   ```
+
+   Claude will use the `gh` CLI; approve its steps and authenticate if prompted.
+
+2. **Import to Vercel.** Go to [vercel.com/new](https://vercel.com/new), sign in (with GitHub), pick your new repo, click **Deploy**. Defaults are fine.
+
+3. **Get your URL.** In ~1 minute Vercel gives you a live `*.vercel.app` URL. Open it **on your phone**. That's your research tool, on the public internet, built in under an hour.
+
+Stuck on deploy? Ask Claude Code: "Walk me through deploying this to Vercel." It knows.
+
+## Step 4. Reflect (5 min)
+
+Before the group debrief, jot answers to one question: **what did you decide, and what did AI decide?** Bring your list — it's the raw material for the [debrief](22-building-debrief.qmd).
+
+::: {.callout-warning}
+## Offline fallback (if the wifi or the API dies)
+
+The starter repo bundles `sample-data.json` — a 37-paper corpus on AI and knowledge work. If live requests fail, tell Claude Code: "The API is unreachable — load results from sample-data.json instead." The whole build works offline; switching back to the live API later is a one-line change.
+:::
