@@ -2,30 +2,30 @@
 title: "Welcome"
 ---
 
-These are hands-on workshops. You won't watch slides about AI — you'll experience AI-augmented work directly, using VS Code + Claude Code: an agentic AI tool that reads files, writes files, and runs commands on your machine. Until recently this stack belonged to software engineers. Now it belongs to everyone — consultants, product managers, and researchers included. Both sessions put that claim to the test with your own hands on the keyboard, then ask what it means for the research we should be doing.
+These are hands-on workshops. You won't watch slides about AI, you'll experience AI-augmented work directly, using VS Code + Claude Code: an agentic AI tool that reads files, writes files, and runs commands on your machine. Until recently this stack belonged to software engineers. Now it belongs to everyone, consultants, product managers, and researchers included. Both sessions put that claim to the test with your own hands on the keyboard, then ask what it means for the research we should be doing.
 
 ## Pick Your Session
 
-### Friday, July 31 · 12:45–14:45 — When Anyone Can Build (TIM)
+### Friday, July 31 · 12:45–14:45 · When Anyone Can Build (TIM)
 
 **Loews Philadelphia Hotel, Second Floor, Commonwealth A2 · Session 17524**
 
-Build and deploy a live web app — Research Scout, a literature scanner on the OpenAlex API — in under an hour, no coding background required.
+Build and deploy a live web app, Research Scout, a literature scanner on the OpenAlex API, in under an hour, no coding background required.
 
 → Start at the [Building brief](20-building-brief.qmd)
 
-### Saturday, August 1 · 14:15–15:45 — The Consultant's OS (MC)
+### Saturday, August 1 · 14:15–15:45 · The Consultant's OS (MC)
 
 **Loews Philadelphia Hotel, Third Floor, Washington A · Session 17785**
 
-Work a real consulting engagement — client: the Academy of Management itself — through an AI-augmented workflow: diagnose, structure, recommend.
+Work a real consulting engagement, client: the Academy of Management itself, through an AI-augmented workflow: diagnose, structure, recommend.
 
 → Start at the [Consulting brief](10-consulting-brief.qmd)
 
 ::: {.callout-important}
 ## REQUIRED before either session: complete the [Setup page](00-setup.qmd) (~30 min)
 
-There is **no setup time in the room**. Both workshops go hands-on within minutes of starting. Complete the setup — Claude Pro, GitHub, VS Code, Claude Code — before you arrive, and run the 2-minute verification checklist at the bottom of the setup page. If setup fails on-site, the fallback is pairing up with a neighbor whose laptop works.
+There is **no setup time in the room**. Both workshops go hands-on within minutes of starting. Complete the setup, Claude Pro, GitHub, VS Code, Claude Code, before you arrive, and run the 2-minute verification checklist at the bottom of the setup page. If setup fails on-site, the fallback is pairing up with a neighbor whose laptop works.
 :::
 
-Attending both? Do setup once — the same stack powers both rooms.
+Attending both? Do setup once, the same stack powers both rooms.

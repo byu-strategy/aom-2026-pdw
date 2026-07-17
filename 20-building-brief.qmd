@@ -7,33 +7,33 @@ Friday, July 31, 2026 · 12:45–14:45 EDT · Loews Philadelphia Hotel, Second F
 Divisions: TIM (primary sponsor), ODC, CAR, ENT
 
 ::: {.callout-important}
-[Setup](00-setup.qmd) must be done before you arrive. Start any remaining installs the moment you sit down — the first 35 minutes are presentations, which is your buffer.
+[Setup](00-setup.qmd) must be done before you arrive. Start any remaining installs the moment you sit down, the first 35 minutes are presentations, which is your buffer.
 :::
 
 ## The framing
 
-AI is compressing the full-stack product builder's skill set — Strategy, Design & Engineering, Go-to-Market, Data Science — into something one person can wield. The 80/20 reality: AI now does roughly 80% of the technical execution, which makes the remaining 20% — judgment about what to build and whether it's right — the scarce skill. Today you'll feel exactly where that line sits.
+AI is compressing the full-stack product builder's skill set, Strategy, Design & Engineering, Go-to-Market, Data Science, into something one person can wield. The 80/20 reality: AI now does roughly 80% of the technical execution, which makes the remaining 20%, judgment about what to build and whether it's right, the scarce skill. Today you'll feel exactly where that line sits.
 
 ## Agenda
 
 | Clock | Length | Segment |
 |-------|--------|---------|
-| 12:45–12:50 | 5 min | **Welcome** — introductions; start any remaining tool installs NOW in the background |
-| 12:50–13:00 | 10 min | **The Transformation** — full-stack product builder framework; skills-compression thesis; 80/20 reality |
-| 13:00–13:10 | 10 min | **Practitioner Voice: Hailey Krey** — how AI has changed her day-to-day work: what she builds now that she couldn't before, what her team stopped hiring for, where judgment still lives. 6–7 min talk + moderated Q&A |
-| 13:10–13:20 | 10 min | **Live Building Demo** — natural-language idea → generated code → iterate → working prototype, including a failure |
-| 13:20–14:15 | 55 min | **Hands-On Build: Research Scout** — scaffold (10), iterate (25), deploy to Vercel (10), reflect (5) |
-| 14:15–14:25 | 10 min | **Debrief** — small groups, then full-room patterns |
-| 14:25–14:40 | 15 min | **Research Implications** — "What should we be studying?" — with your just-built apps as live instruments |
+| 12:45–12:50 | 5 min | **Welcome**, introductions; start any remaining tool installs NOW in the background |
+| 12:50–13:00 | 10 min | **The Transformation**, full-stack product builder framework; skills-compression thesis; 80/20 reality |
+| 13:00–13:10 | 10 min | **Practitioner Voice: Hailey Krey**, how AI has changed her day-to-day work: what she builds now that she couldn't before, what her team stopped hiring for, where judgment still lives. 6–7 min talk + moderated Q&A |
+| 13:10–13:20 | 10 min | **Live Building Demo**, natural-language idea → generated code → iterate → working prototype, including a failure |
+| 13:20–14:15 | 55 min | **Hands-On Build: Research Scout**, scaffold (10), iterate (25), deploy to Vercel (10), reflect (5) |
+| 14:15–14:25 | 10 min | **Debrief**, small groups, then full-room patterns |
+| 14:25–14:40 | 15 min | **Research Implications**, "What should we be studying?", with your just-built apps as live instruments |
 | 14:40–14:45 | 5 min | **Wrap-Up + Resources** |
 
 ## What you'll build: Research Scout
 
-A live literature-scanner web app on the [OpenAlex](https://openalex.org) API — a tool that actually does research work, not just organizes it. Type a research topic → the app queries api.openalex.org live (free, no auth key needed) → matching papers with authors, venue, year, citation count, and DOI → a publication-trend chart by year → save papers to a shortlist → export BibTeX.
+A live literature-scanner web app on the [OpenAlex](https://openalex.org) API, a tool that actually does research work, not just organizes it. Type a research topic → the app queries api.openalex.org live (free, no auth key needed) → matching papers with authors, venue, year, citation count, and DOI → a publication-trend chart by year → save papers to a shortlist → export BibTeX.
 
-Here's the meta-loop: to prepare this workshop, we used AI to scan OpenAlex for what you all are publishing on AI and work. In 55 minutes you'll build your own version of that scanner — and in the debrief we'll use your apps live to test whether the research questions the room proposes are open or crowded. The product you build becomes an instrument in the session itself. And it's a keeper: literature discovery plus "is this space hot?" evidence for your next paper's introduction.
+Here's the meta-loop: to prepare this workshop, we used AI to scan OpenAlex for what you all are publishing on AI and work. In 55 minutes you'll build your own version of that scanner, and in the debrief we'll use your apps live to test whether the research questions the room proposes are open or crowded. The product you build becomes an instrument in the session itself. And it's a keeper: literature discovery plus "is this space hot?" evidence for your next paper's introduction.
 
-Everyone starts from the same prompt. Sixty people will end with sixty different products — that divergence is data, and we'll talk about it.
+Everyone starts from the same prompt. Sixty people will end with sixty different products, that divergence is data, and we'll talk about it.
 
 ## What to have ready
 
@@ -41,4 +41,4 @@ Everyone starts from the same prompt. Sixty people will end with sixty different
 - [ ] Logged in to GitHub and Vercel in your browser
 - [ ] VS Code open with a terminal, `claude` tested
 - [ ] Skim [Claude Code 101](01-claude-code-101.qmd) and the [build steps](21-building-exercise.qmd) so nothing on the day is a surprise
-- [ ] A research topic you actually care about — you'll search it live
+- [ ] A research topic you actually care about, you'll search it live

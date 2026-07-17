@@ -7,40 +7,40 @@ Saturday, August 1, 2026 · 14:15–15:45 EDT · Loews Philadelphia Hotel, Third
 Divisions: MC (primary sponsor), SAP, CTO, MED
 
 ::: {.callout-important}
-[Setup](00-setup.qmd) must be done before you arrive. This is a 90-minute session with zero slack — laptops out at 14:15, hands-on by 14:36.
+[Setup](00-setup.qmd) must be done before you arrive. This is a 90-minute session with zero slack, laptops out at 14:15, hands-on by 14:36.
 :::
 
 ## The framing
 
-The Consultant's OS is a framework for how consultants actually work: **four imperatives** — understand the client's problem, structure it, analyze it, communicate the answer — each backed by teachable competencies. The session's working hypothesis is the **80/20 shift**: AI can now execute roughly 80% of a consulting workflow's mechanical work — reading the data room, drafting the issue tree, assembling the deliverable — which concentrates the value of the human 20%: problem framing, judgment about what matters, and client-context sense. Today you'll run a real engagement through that workflow and locate the line for yourself.
+The Consultant's OS is a framework for how consultants actually work: **four imperatives**, understand the client's problem, structure it, analyze it, communicate the answer, each backed by teachable competencies. The session's working hypothesis is the **80/20 shift**: AI can now execute roughly 80% of a consulting workflow's mechanical work, reading the data room, drafting the issue tree, assembling the deliverable, which concentrates the value of the human 20%: problem framing, judgment about what matters, and client-context sense. Today you'll run a real engagement through that workflow and locate the line for yourself.
 
 ## Agenda
 
 | Clock | Length | Segment |
 |-------|--------|---------|
-| 14:15–14:20 | 5 min | **Welcome** — introductions; laptops out NOW so setup issues surface early |
-| 14:20–14:28 | 8 min | **How Consultants Work** — Consultant's OS framework (4 imperatives, 8 competencies); the 80/20 hypothesis |
-| 14:28–14:36 | 8 min | **Live Demo** — one end-to-end pass: research synthesis → issue tree → slide outline |
-| 14:36–15:14 | 38 min | **Hands-On Case: Client = AOM** — clone the data room; diagnose (12), MECE issue tree (13), Pyramid-Principle recommendation (13) |
-| 15:14–15:23 | 9 min | **Debrief** — groups of 3–4, then full-room patterns |
-| 15:23–15:38 | 15 min | **Research Implications** — "What should we be studying?" — shared doc on screen |
-| 15:38–15:45 | 7 min | **Wrap-Up + Q&A** — resources, prompt templates, opt-in list |
+| 14:15–14:20 | 5 min | **Welcome**, introductions; laptops out NOW so setup issues surface early |
+| 14:20–14:28 | 8 min | **How Consultants Work**, Consultant's OS framework (4 imperatives, 8 competencies); the 80/20 hypothesis |
+| 14:28–14:36 | 8 min | **Live Demo**, one end-to-end pass: research synthesis → issue tree → slide outline |
+| 14:36–15:14 | 38 min | **Hands-On Case: Client = AOM**, clone the data room; diagnose (12), MECE issue tree (13), Pyramid-Principle recommendation (13) |
+| 15:14–15:23 | 9 min | **Debrief**, groups of 3–4, then full-room patterns |
+| 15:23–15:38 | 15 min | **Research Implications**, "What should we be studying?", shared doc on screen |
+| 15:38–15:45 | 7 min | **Wrap-Up + Q&A**, resources, prompt templates, opt-in list |
 
 ## The case: client = the Academy of Management
 
-The Academy of Management has engaged your team to answer one question: why does management research — tens of thousands of brilliant scholars producing rigorous work — have so little visible influence on how organizations are actually managed, and what should AOM do about it? Your data room reveals a system of interlocking incentives: promotion-and-tenure standards that reward A-journal hits over real-world impact, journals and rankings whose gatekeeping power functions like a monopoly on what "counts," and a publishing model whose intended end users — managers — have largely stopped reading. Your job is to find the innovation opportunities hiding inside that locked system — open research infrastructure, new research products and practitioner channels, incentive redesign — and recommend to the Board where AOM should move first.
+The Academy of Management has engaged your team to answer one question: why does management research, tens of thousands of brilliant scholars producing rigorous work, have so little visible influence on how organizations are actually managed, and what should AOM do about it? Your data room reveals a system of interlocking incentives: promotion-and-tenure standards that reward A-journal hits over real-world impact, journals and rankings whose gatekeeping power functions like a monopoly on what "counts," and a publishing model whose intended end users, managers, have largely stopped reading. Your job is to find the innovation opportunities hiding inside that locked system, open research infrastructure, new research products and practitioner channels, incentive redesign, and recommend to the Board where AOM should move first.
 
-*(In-room framing: imagine the Board has engaged your team — a hypothetical mandate, real data.)*
+*(In-room framing: imagine the Board has engaged your team, a hypothetical mandate, real data.)*
 
 ### The mandate is both/and
 
-Rigor is the crown jewel and it is **not on the table**. The Board's question is how to pair rigor with impact — in Akerlof's terms, the field's sins are of omission, not commission. Explicit **non-goals**: lowering standards, impact-washing, attacking journals or people. If your recommendation reads as "publish less rigorously," you've misread the client.
+Rigor is the crown jewel and it is **not on the table**. The Board's question is how to pair rigor with impact, in Akerlof's terms, the field's sins are of omission, not commission. Explicit **non-goals**: lowering standards, impact-washing, attacking journals or people. If your recommendation reads as "publish less rigorously," you've misread the client.
 
 ### About the data
 
-The data room's quantitative files are **real** — journal metrics and field trends computed from [OpenAlex](https://openalex.org), plus public AOM figures — and its `documents/` folder summarizes real, cited literature (Akerlof, Heckman, the RRBM position paper). The `interviews/` folder contains **illustrative composites**, clearly labeled as such: realistic role-based perspectives (a journal editor, a dean, a practitioner, a PhD student), not quotes from real people. The factual weight rests on the real documents and data.
+The data room's quantitative files are **real**, journal metrics and field trends computed from [OpenAlex](https://openalex.org), plus public AOM figures, and its `documents/` folder summarizes real, cited literature (Akerlof, Heckman, the RRBM position paper). The `interviews/` folder contains **illustrative composites**, clearly labeled as such: realistic role-based perspectives (a journal editor, a dean, a practitioner, a PhD student), not quotes from real people. The factual weight rests on the real documents and data.
 
-Why this client? Because everyone in the room is a domain expert — which means you can actually exercise the judgment 20%. You'll spot where the AI's synthesis is glib or politically naive. That's the session's thesis, felt firsthand.
+Why this client? Because everyone in the room is a domain expert, which means you can actually exercise the judgment 20%. You'll spot where the AI's synthesis is glib or politically naive. That's the session's thesis, felt firsthand.
 
 ## What to have ready
 

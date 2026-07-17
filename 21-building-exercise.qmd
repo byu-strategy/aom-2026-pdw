@@ -2,7 +2,7 @@
 title: "Build: Research Scout"
 ---
 
-The 55-minute build, in four steps. Work at your own pace — the timings are guardrails, not a race.
+The 55-minute build, in four steps. Work at your own pace, the timings are guardrails, not a race.
 
 ## Step 0. Get the starter (2 min, part of scaffold time)
 
@@ -13,7 +13,7 @@ git clone https://github.com/byu-strategy/research-scout-starter.git
 cd research-scout-starter
 ```
 
-*(Repo is live. It contains a README, the prompt template below, and `sample-data.json` — see the offline fallback at the bottom of this page.)*
+*(Repo is live. It contains a README, the prompt template below, and `sample-data.json`, see the offline fallback at the bottom of this page.)*
 
 Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`.
 
@@ -32,18 +32,18 @@ Approve Claude's actions as it works. When it says it's done, ask it to run the 
 
 ## Step 2. Iterate (25 min)
 
-This is the divergence phase — make it yours. Pick features you'd actually use and describe them in plain English. Ideas:
+This is the divergence phase, make it yours. Pick features you'd actually use and describe them in plain English. Ideas:
 
-1. **Publication-trend chart** — "Add a chart of publications per year for the current search. Use the OpenAlex group_by parameter: `https://api.openalex.org/works?search=TOPIC&group_by=publication_year`."
-2. **Venue filter** — "Let me filter results to a specific journal or venue."
-3. **Citation sort toggle** — "Add a toggle to sort by citations vs. recency."
-4. **BibTeX export** — "Add a button that exports my shortlist as a BibTeX file."
-5. **Saved shortlist pane** — "Let me save papers to a shortlist that persists in the browser."
-6. **Compare two topics** — "Add a view that compares two search topics side by side, including their trend lines."
-7. **Abstract preview** — "Show the abstract when I click a paper." (OpenAlex returns abstracts as an inverted index — tell Claude that; watch it cope.)
-8. **Open-access filter** — "Add a filter for open-access papers only."
-9. **Mobile layout** — "Make it look good on a phone." (You'll want this for the deploy step.)
-10. **Your call** — the best feature is the one you wish existed. Describe it.
+1. **Publication-trend chart**, "Add a chart of publications per year for the current search. Use the OpenAlex group_by parameter: `https://api.openalex.org/works?search=TOPIC&group_by=publication_year`."
+2. **Venue filter**, "Let me filter results to a specific journal or venue."
+3. **Citation sort toggle**, "Add a toggle to sort by citations vs. recency."
+4. **BibTeX export**, "Add a button that exports my shortlist as a BibTeX file."
+5. **Saved shortlist pane**, "Let me save papers to a shortlist that persists in the browser."
+6. **Compare two topics**, "Add a view that compares two search topics side by side, including their trend lines."
+7. **Abstract preview**, "Show the abstract when I click a paper." (OpenAlex returns abstracts as an inverted index, tell Claude that; watch it cope.)
+8. **Open-access filter**, "Add a filter for open-access papers only."
+9. **Mobile layout**, "Make it look good on a phone." (You'll want this for the deploy step.)
+10. **Your call**, the best feature is the one you wish existed. Describe it.
 
 After each feature: test it, and if it's not right, say specifically what's wrong. Iteration is the workflow.
 
@@ -67,10 +67,10 @@ Stuck on deploy? Ask Claude Code: "Walk me through deploying this to Vercel." It
 
 ## Step 4. Reflect (5 min)
 
-Before the group debrief, jot answers to one question: **what did you decide, and what did AI decide?** Bring your list — it's the raw material for the [debrief](22-building-debrief.qmd).
+Before the group debrief, jot answers to one question: **what did you decide, and what did AI decide?** Bring your list, it's the raw material for the [debrief](22-building-debrief.qmd).
 
 ::: {.callout-warning}
 ## Offline fallback (if the wifi or the API dies)
 
-The starter repo bundles `sample-data.json` — a 37-paper corpus on AI and knowledge work. If live requests fail, tell Claude Code: "The API is unreachable — load results from sample-data.json instead." The whole build works offline; switching back to the live API later is a one-line change.
+The starter repo bundles `sample-data.json`, a 37-paper corpus on AI and knowledge work. If live requests fail, tell Claude Code: "The API is unreachable, load results from sample-data.json instead." The whole build works offline; switching back to the live API later is a one-line change.
 :::

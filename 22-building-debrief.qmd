@@ -4,29 +4,29 @@ title: "Building Debrief"
 
 ## Debrief questions (groups of 3–4, then full room)
 
-Stay concrete — pull from what just happened at your keyboard:
+Stay concrete, pull from what just happened at your keyboard:
 
-1. **What could you do that you couldn't before?** Name the specific thing — deployed a live app, wrote working API calls, shipped a chart — that was outside your skill set two hours ago.
+1. **What could you do that you couldn't before?** Name the specific thing, deployed a live app, wrote working API calls, shipped a chart, that was outside your skill set two hours ago.
 2. **Where did AI struggle?** Where did it go wrong, go generic, or confidently produce something broken? What did it take to notice?
 3. **What skills mattered?** When sixty people ran the same starter prompt and got sixty different products, what explained the difference? What were *you* contributing?
 
 ## What should we be studying?
 
-The field experiments told us AI makes knowledge workers faster — you just *felt* it. What nobody has published is what this does to role boundaries, org design, and careers. That's yours to take. OpenAlex counts for "generative AI" + skills/occupations/workforce: 2022: 8 → 2023: 253 → 2024: 1,166 → 2025: 2,869 → 2026 (through July): 2,913. The space is hot; the workshop-specific layer is nearly empty. Use the Research Scout app you just built to live-check whether these are open or crowded.
+The field experiments told us AI makes knowledge workers faster, you just *felt* it. What nobody has published is what this does to role boundaries, org design, and careers. That's yours to take. OpenAlex counts for "generative AI" + skills/occupations/workforce: 2022: 8 → 2023: 253 → 2024: 1,166 → 2025: 2,869 → 2026 (through July): 2,913. The space is hot; the workshop-specific layer is nearly empty. Use the Research Scout app you just built to live-check whether these are open or crowded.
 
-**Add your questions to the shared doc:** [Shared Google Doc — link live by session day](#) <!-- TODO: insert shared Google Doc URL -->
+**Add your questions to the shared doc:** [Shared Google Doc, link live by session day](#) <!-- TODO: insert shared Google Doc URL -->
 
 Ten seed questions to react to:
 
-1. When AI collapses the cost of building, does the PM/engineer boundary dissolve, invert, or get redrawn around a new scarce skill — and which one? [Meske et al. 2025, doi.org/10.1109/access.2025.3645466; Goto 2023, doi.org/10.1016/j.respol.2023.104828]
-2. How do software engineers perform jurisdictional boundary work against "vibe-coding" non-engineers — does it resemble physicians' response to AI? [Avnoon et al. 2023, doi.org/10.1177/20539517231210269; Lebovitz et al. 2022, doi.org/10.1287/orsc.2021.1549]
-3. What structures emerge when technical complexity moves from specialist roles into AI tooling — flatter orgs, or re-stratification around AI oversight? [Hasan et al. 2025, doi.org/10.2139/ssrn.5287538; Alekseeva et al. 2026, doi.org/10.1002/smj.70099]
-4. Under what conditions does genAI level vs. widen the novice–expert gap — can task decomposability reconcile Brynjolfsson (2023, doi.org/10.3386/w31161), Otis (2024, doi.org/10.31219/osf.io/hdjpk), and Becker (2025, doi.org/10.48550/arxiv.2507.09089)?
+1. When AI collapses the cost of building, does the PM/engineer boundary dissolve, invert, or get redrawn around a new scarce skill, and which one? [Meske et al. 2025, doi.org/10.1109/access.2025.3645466; Goto 2023, doi.org/10.1016/j.respol.2023.104828]
+2. How do software engineers perform jurisdictional boundary work against "vibe-coding" non-engineers, does it resemble physicians' response to AI? [Avnoon et al. 2023, doi.org/10.1177/20539517231210269; Lebovitz et al. 2022, doi.org/10.1287/orsc.2021.1549]
+3. What structures emerge when technical complexity moves from specialist roles into AI tooling, flatter orgs, or re-stratification around AI oversight? [Hasan et al. 2025, doi.org/10.2139/ssrn.5287538; Alekseeva et al. 2026, doi.org/10.1002/smj.70099]
+4. Under what conditions does genAI level vs. widen the novice–expert gap, can task decomposability reconcile Brynjolfsson (2023, doi.org/10.3386/w31161), Otis (2024, doi.org/10.31219/osf.io/hdjpk), and Becker (2025, doi.org/10.48550/arxiv.2507.09089)?
 5. Does the "jagged frontier" move faster than occupational skill categories can adjust, producing chronic mismatch between job titles and task allocation? [Dell'Acqua et al. 2026, doi.org/10.1287/orsc.2025.21838; Stephany & Teutloff 2023, doi.org/10.1016/j.respol.2023.104898]
-6. When ideation and building compress into one AI-augmented individual, what happens to stage-gate and agile processes — and the coordination roles they justified? [Boussioux et al. 2024, doi.org/10.1287/orsc.2023.18430; Bilgram & Laarmann 2023, doi.org/10.1109/emr.2023.3272799]
-7. Who captures the value created by AI-augmented generalists — firms, workers, or tool platforms? [Stephany & Teutloff 2023, doi.org/10.1016/j.respol.2023.104898; Demirci et al. 2025, doi.org/10.1287/mnsc.2024.05420]
+6. When ideation and building compress into one AI-augmented individual, what happens to stage-gate and agile processes, and the coordination roles they justified? [Boussioux et al. 2024, doi.org/10.1287/orsc.2023.18430; Bilgram & Laarmann 2023, doi.org/10.1109/emr.2023.3272799]
+7. Who captures the value created by AI-augmented generalists, firms, workers, or tool platforms? [Stephany & Teutloff 2023, doi.org/10.1016/j.respol.2023.104898; Demirci et al. 2025, doi.org/10.1287/mnsc.2024.05420]
 8. What are the career trajectories of displaced technical specialists: exit, AI-supervision roles, or judgment-intensive niches? [Hui, Reshef & Zhou 2024, doi.org/10.1287/orsc.2023.18441]
 9. If individual creativity rises but collective diversity falls, what happens to firm-level innovation portfolios when everyone builds from the same models? [Doshi & Hauser 2024, doi.org/10.1126/sciadv.adn5290]
-10. Does "artificial certainty" among newly-empowered non-technical builders create a new class of organizational risk — and who is accountable for citizen-built software? [Leonardi et al. 2026, doi.org/10.1287/orsc.2023.18224; Carroll et al. 2023, doi.org/10.17705/2msqe.00076]
+10. Does "artificial certainty" among newly-empowered non-technical builders create a new class of organizational risk, and who is accountable for citizen-built software? [Leonardi et al. 2026, doi.org/10.1287/orsc.2023.18224; Carroll et al. 2023, doi.org/10.17705/2msqe.00076]
 
 Hailey stays up front during this segment as the practitioner reality-check: *would that matter in industry?*

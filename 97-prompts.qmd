@@ -18,14 +18,14 @@ API pattern:
 https://api.openalex.org/works?search=TOPIC&filter=from_publication_date:2022-01-01&sort=cited_by_count:desc
 ```
 
-### Consulting case — diagnose
+### Consulting case: diagnose
 
 ```
 Read this data room and give me the 5 key facts and your hypothesis
 on why impact lags.
 ```
 
-### Consulting case — structure
+### Consulting case: structure
 
 ```
 Build a MECE issue tree for: "How can AOM increase the real-world
@@ -33,7 +33,7 @@ impact of management scholarship?" Ground each branch in evidence
 from the data room. Write it to issue-tree.md.
 ```
 
-### Consulting case — communicate
+### Consulting case: communicate
 
 ```
 Write a one-page Pyramid-Principle recommendation to the AOM Board
@@ -97,7 +97,7 @@ Save as `tasks.md`.
 
 ### Coding protocol (keep AI on rails)
 
-Paste this alongside any build request — it prevents the sprawl:
+Paste this alongside any build request, it prevents the sprawl:
 
 ```
 Coding instructions:

@@ -4,30 +4,30 @@ title: "Resources"
 
 ## Keep going after the session
 
-- **The Consultant's OS course** — the full semester-length version of Saturday's framework: [byu-strategy.github.io/management-consulting](https://byu-strategy.github.io/management-consulting/)
-- **AI PM Bootcamp** — the full build curriculum behind Friday's workshop (vibe coding, spec-driven development, git + deployment, power users): [byu-strategy.github.io/ai-pm-bootcamp](https://byu-strategy.github.io/ai-pm-bootcamp/)
-- **OpenAlex** — the open catalog of the world's research that powers both the data room and Research Scout: [openalex.org](https://openalex.org)
+- **The Consultant's OS course**, the full semester-length version of Saturday's framework: [byu-strategy.github.io/management-consulting](https://byu-strategy.github.io/management-consulting/)
+- **AI PM Bootcamp**, the full build curriculum behind Friday's workshop (vibe coding, spec-driven development, git + deployment, power users): [byu-strategy.github.io/ai-pm-bootcamp](https://byu-strategy.github.io/ai-pm-bootcamp/)
+- **OpenAlex**, the open catalog of the world's research that powers both the data room and Research Scout: [openalex.org](https://openalex.org)
 
 ## Post-session
 
-- **Compiled research questions** — the shared docs from both sessions, synthesized into one document: link posted here after AOM. <!-- TODO: add compiled-questions link post-session -->
-- **Opt-in email list** — occasional updates on the workshops' materials, the AOM memo, and follow-on research: sign-up link posted here. <!-- TODO: add opt-in list link -->
+- **Compiled research questions**, the shared docs from both sessions, synthesized into one document: link posted here after AOM. <!-- TODO: add compiled-questions link post-session -->
+- **Opt-in email list**, occasional updates on the workshops' materials, the AOM memo, and follow-on research: sign-up link posted here. <!-- TODO: add opt-in list link -->
 
-## Foundational readings — rigor, relevance, impact, and publishing incentives
+## Foundational readings: rigor, relevance, impact, and publishing incentives
 
 The reading list behind the consulting case's data room. ★ = full grounding document in the data room.
 
 ### The outside-discipline anchors (economics)
 
-- ★ Akerlof, G. A. (2020). Sins of Omission and the Practice of Economics. *Journal of Economic Literature*. [doi:10.1257/jel.20191573](https://doi.org/10.1257/jel.20191573) — hardness over-rewarded vs. importance; the case's both/and grounding text.
-- ★ Heckman, J. J., & Moktan, S. (2020). Publishing and Promotion in Economics: The Tyranny of the Top Five. *Journal of Economic Literature*. [doi:10.1257/jel.20191574](https://doi.org/10.1257/jel.20191574) — top-journal publication as tenure currency.
+- ★ Akerlof, G. A. (2020). Sins of Omission and the Practice of Economics. *Journal of Economic Literature*. [doi:10.1257/jel.20191573](https://doi.org/10.1257/jel.20191573), hardness over-rewarded vs. importance; the case's both/and grounding text.
+- ★ Heckman, J. J., & Moktan, S. (2020). Publishing and Promotion in Economics: The Tyranny of the Top Five. *Journal of Economic Literature*. [doi:10.1257/jel.20191574](https://doi.org/10.1257/jel.20191574), top-journal publication as tenure currency.
 
 ### The field's own reckoning
 
-- ★ Hambrick, D. C. (1994). What if the Academy Actually Mattered? *Academy of Management Review*. [doi:10.2307/258833](https://doi.org/10.2307/258833) — the founding text of the debate.
+- ★ Hambrick, D. C. (1994). What if the Academy Actually Mattered? *Academy of Management Review*. [doi:10.2307/258833](https://doi.org/10.2307/258833), the founding text of the debate.
 - ★ Ghoshal, S. (2005). Bad Management Theories Are Destroying Good Management Practices. *Academy of Management Learning & Education*. [doi:10.5465/amle.2005.16132558](https://doi.org/10.5465/amle.2005.16132558)
 - Pfeffer, J., & Fong, C. T. (2002). The End of Business Schools? Less Success Than Meets the Eye. *AMLE*. [doi:10.5465/amle.2002.7373679](https://doi.org/10.5465/amle.2002.7373679)
-- Bennis, W. G., & O'Toole, J. (2005). How Business Schools Lost Their Way. *Harvard Business Review*. (No DOI — HBR.)
+- Bennis, W. G., & O'Toole, J. (2005). How Business Schools Lost Their Way. *Harvard Business Review*. (No DOI, HBR.)
 - Tourish, D. (2020). The Triumph of Nonsense in Management Studies. *AMLE*. [doi:10.5465/amle.2019.0255](https://doi.org/10.5465/amle.2019.0255)
 
 ### The rigor–relevance debate proper
@@ -36,7 +36,7 @@ The reading list behind the consulting case's data room. ★ = full grounding do
 - Rynes, S. L., Colbert, A. E., & Brown, K. G. (2002). HR Professionals' Beliefs About Effective Human Resource Practices. *Human Resource Management*. [doi:10.1002/hrm.10029](https://doi.org/10.1002/hrm.10029)
 - Van de Ven, A. H., & Johnson, P. E. (2006). Knowledge for Theory and Practice. *Academy of Management Review*. [doi:10.5465/amr.2006.22527385](https://doi.org/10.5465/amr.2006.22527385)
 - Rousseau, D. M. (2006). Is There Such a Thing as "Evidence-Based Management"? *Academy of Management Review*. [doi:10.5465/amr.2006.20208679](https://doi.org/10.5465/amr.2006.20208679)
-- Kieser, A., & Leiner, L. (2009). Why the Rigour–Relevance Gap in Management Research Is Unbridgeable. *Journal of Management Studies*. [doi:10.1111/j.1467-6486.2009.00831.x](https://doi.org/10.1111/j.1467-6486.2009.00831.x) — paired with Hodgkinson, G. P., & Rousseau, D. M. (2009). …It's Already Happening! *JMS*. [doi:10.1111/j.1467-6486.2009.00832.x](https://doi.org/10.1111/j.1467-6486.2009.00832.x)
+- Kieser, A., & Leiner, L. (2009). Why the Rigour–Relevance Gap in Management Research Is Unbridgeable. *Journal of Management Studies*. [doi:10.1111/j.1467-6486.2009.00831.x](https://doi.org/10.1111/j.1467-6486.2009.00831.x), paired with Hodgkinson, G. P., & Rousseau, D. M. (2009). …It's Already Happening! *JMS*. [doi:10.1111/j.1467-6486.2009.00832.x](https://doi.org/10.1111/j.1467-6486.2009.00832.x)
 
 ### Incentives, metrics, and market structure
 

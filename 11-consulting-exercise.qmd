@@ -2,7 +2,7 @@
 title: "Case: Client = AOM"
 ---
 
-The 38-minute hands-on engagement, in three tasks. Prompts below are starting points — adapt them; specificity is the skill.
+The 38-minute hands-on engagement, in three tasks. Prompts below are starting points, adapt them; specificity is the skill.
 
 ## Step 0. Get the data room (2 min)
 
@@ -15,7 +15,7 @@ cd aom-impact-dataroom
 
 *(Repo is live.)*
 
-Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md` — it's the engagement brief. The folder is a consultant's data dump: real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature in `documents/`, and clearly-labeled composite interviews in `interviews/`.
+Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md`, it's the engagement brief. The folder is a consultant's data dump: real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature in `documents/`, and clearly-labeled composite interviews in `interviews/`.
 
 ## Task 1. Diagnose (12 min)
 
@@ -46,11 +46,11 @@ Review the diff before approving. Then interrogate the structure:
 
 - "Are these branches actually mutually exclusive? Where do they overlap?"
 - "Which branches does AOM actually control? Restructure around levers AOM can pull vs. influence."
-- (That last one matters — noticing that AOM doesn't set tenure standards or own the rankings is the judgment work of this case.)
+- (That last one matters, noticing that AOM doesn't set tenure standards or own the rankings is the judgment work of this case.)
 
 ## Task 3. Communicate (13 min)
 
-Turn the analysis into a one-page recommendation using the Pyramid Principle — answer first, then supporting arguments, then evidence:
+Turn the analysis into a one-page recommendation using the Pyramid Principle, answer first, then supporting arguments, then evidence:
 
 ```
 Write a one-page Pyramid-Principle recommendation to the AOM Board
@@ -66,7 +66,7 @@ Then edit like a partner reviewing an associate's draft: is the lead actually th
 
 ## Before the debrief
 
-Jot one example of each — you'll use them in the [debrief](12-consulting-debrief.qmd):
+Jot one example of each, you'll use them in the [debrief](12-consulting-debrief.qmd):
 
 - Something AI did well enough to bill for
 - Somewhere you had to add judgment it couldn't supply
