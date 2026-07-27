@@ -14,6 +14,12 @@ We strongly recommend completing [Setup](00-setup.qmd) before you arrive. If any
 
 AI is compressing the full-stack product builder's skill set, Strategy, Design & Engineering, Go-to-Market, Data Science, into something one person can wield. The 80/20 reality: AI now does roughly 80% of the technical execution, which makes the remaining 20%, judgment about what to build and whether it's right, the scarce skill. Today you'll feel exactly where that line sits.
 
+This is not a claim you have to take from us. In May 2026 the Global Research Impact Task Force, on which AOM was a lead partner, published *A Framework for Research Impact* and named three forces demanding urgent attention from business schools. The third:
+
+> "The rapid rise of AI and emerging technologies is reshaping how knowledge is created, evaluated, disseminated, and used, ushering in what Ethan Mollick describes as 'singularities' in the research process, where AI enables step-change shifts in the speed, scale, and nature of research, challenging schools to adapt their research models."
+
+Your field's own governing documents now say what this workshop is about. The open question is what any of us does on Monday, which is why you're going to build something instead of hearing about it.
+
 ## Agenda
 
 | Clock | Length | Segment |
