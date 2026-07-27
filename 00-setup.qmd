@@ -1,8 +1,8 @@
 ---
-title: "Setup (Required)"
+title: "Setup (Recommended)"
 ---
 
-*Plan for about 30 minutes. Complete this on your own **before** your workshop, there is no setup time in the room.*
+*Plan for about 30 minutes. Do this on your own **before** your workshop if you can, there's very little setup time in the room and every minute you save here is a minute you spend building.*
 
 **Laptop requirement:** Bring your own Windows or macOS laptop (4GB+ RAM), plus a charging cord.
 

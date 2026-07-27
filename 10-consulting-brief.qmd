@@ -7,7 +7,7 @@ Saturday, August 1, 2026 · 14:15–15:45 EDT · Loews Philadelphia Hotel, Third
 Divisions: MC (primary sponsor), SAP, CTO, MED
 
 ::: {.callout-important}
-[Setup](00-setup.qmd) must be done before you arrive. This is a 90-minute session with zero slack, laptops out at 14:15, hands-on by 14:36.
+We strongly recommend completing [Setup](00-setup.qmd) before you arrive. This is a 90-minute session that goes hands-on at 14:36, so the more that's installed when you sit down, the more of the case you'll get to work. If you arrive without it, come 15 minutes early or pair up with a neighbor, nobody sits out.
 :::
 
 ## The framing

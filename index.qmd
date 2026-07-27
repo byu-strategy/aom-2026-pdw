@@ -23,9 +23,9 @@ Work a real consulting engagement, client: the Academy of Management itself, thr
 → Start at the [Consulting brief](10-consulting-brief.qmd)
 
 ::: {.callout-important}
-## REQUIRED before either session: complete the [Setup page](00-setup.qmd) (~30 min)
+## Before either session: complete the [Setup page](00-setup.qmd) (~30 min)
 
-There is **no setup time in the room**. Both workshops go hands-on within minutes of starting. Complete the setup, Claude Pro, GitHub, VS Code, Claude Code, before you arrive, and run the 2-minute verification checklist at the bottom of the setup page. If setup fails on-site, the fallback is pairing up with a neighbor whose laptop works.
+Both workshops go hands-on within minutes of starting, so there's very little setup time in the room. Installing the stack ahead of time, Claude Pro, GitHub, VS Code, Claude Code, and running the 2-minute verification checklist at the bottom of the setup page is the single best thing you can do to get value out of the session. If something doesn't work on the day, come 15 minutes early or pair up with a neighbor whose laptop is running. Nobody sits out.
 :::
 
 Attending both? Do setup once, the same stack powers both rooms.

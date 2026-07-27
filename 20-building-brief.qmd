@@ -7,7 +7,7 @@ Friday, July 31, 2026 · 12:45–14:45 EDT · Loews Philadelphia Hotel, Second F
 Divisions: TIM (primary sponsor), ODC, CAR, ENT
 
 ::: {.callout-important}
-[Setup](00-setup.qmd) must be done before you arrive. Start any remaining installs the moment you sit down, the first 35 minutes are presentations, which is your buffer.
+We strongly recommend completing [Setup](00-setup.qmd) before you arrive. If anything is still unfinished, start the installs the moment you sit down: the first 35 minutes are presentations, which is your buffer. Pairing up with a neighbor is a fine fallback, nobody sits out.
 :::
 
 ## The framing
