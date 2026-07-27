@@ -6,7 +6,7 @@ title: "Consulting Debrief"
 
 Stay on the workflow you just ran, the publishing-reform debate gets its turn in the research segment:
 
-1. **What did AI do well?** Which parts of diagnose → structure → communicate would you have billed for as-is?
+1. **What did AI do well?** Which parts of assess → structure → recommend would you have billed for as-is?
 2. **Where did you add judgment?** Name the specific moment, a glib synthesis, a politically naive branch, a lever AOM doesn't actually control, where your expertise changed the output.
 3. **What surprised you?** In either direction: better than expected, or wrong in a way you didn't see coming.
 

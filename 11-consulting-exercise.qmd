@@ -15,52 +15,66 @@ cd aom-impact-dataroom
 
 *(Repo is live.)*
 
-Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md`, it's the engagement brief. The folder is a consultant's data dump: real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature in `documents/`, and clearly-labeled composite interviews in `interviews/`.
+Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md`, it's the engagement brief. The folder is a consultant's data dump: the **full 46-page 2026 research impact framework** as a PDF in `documents/`, real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature, and clearly-labeled composite interviews in `interviews/`.
 
-## Task 1. Diagnose (12 min)
+::: {.callout-note}
+Nobody in this room can read 46 pages of framework in 38 minutes. Claude Code can read it in seconds. That asymmetry *is* the session's thesis, so let it do the reading and spend your time on what it gets wrong.
+:::
 
-Work the data room the way you'd work a client's. Starter prompt:
+## Task 1. Assess (12 min)
+
+The client co-wrote the framework, so don't re-explain it to them. Find out where they stand against it. Starter prompt:
 
 ```
-Read this data room and give me the 5 key facts and your hypothesis
-on why impact lags.
+Read documents/a-framework-for-research-impact-2026.pdf and this
+whole data room. The framework assigns five imperatives to
+"Academies and Scholarly Associations." Against those five, where
+is AOM already strong, where is it weak, and what is the binding
+constraint?
 ```
 
-Claude Code will read every file and compute from the real CSVs. Then push back:
+Claude Code will read the PDF and compute from the real CSVs. Then push back:
 
-- "Which of those facts is actually supported by a number in the data? Cite the file."
-- "The journal editor's interview cuts against your hypothesis. Reconcile them."
+- "Which of those claims is supported by a number in `data/`? Cite the file."
+- "You're assuming AOM can do things it may have no authority to do. Which of your five assessments assumes authority AOM doesn't have?"
 - "What's missing from this data room that a real engagement would need?"
 
 ## Task 2. Structure (13 min)
 
-Build a MECE issue tree for the engagement question and write it to a file:
+Build a MECE issue tree of AOM's options and write it to a file:
 
 ```
-Build a MECE issue tree for: "How can AOM increase the real-world
-impact of management scholarship?" Ground each branch in evidence
-from the data room. Write it to issue-tree.md.
+Build a MECE issue tree for: "What should AOM do now that Standard 8
+is in force?" Split the tree by what AOM controls (journals, the
+annual meeting, divisions, awards, member communications) versus
+what it can only influence (tenure standards, rankings, publishers,
+accreditation). Ground each branch in evidence from the data room.
+Write it to issue-tree.md.
 ```
 
 Review the diff before approving. Then interrogate the structure:
 
 - "Are these branches actually mutually exclusive? Where do they overlap?"
-- "Which branches does AOM actually control? Restructure around levers AOM can pull vs. influence."
-- (That last one matters, noticing that AOM doesn't set tenure standards or own the rankings is the judgment work of this case.)
+- "Anything in the 'controls' column that AOM doesn't actually control? Move it and say why."
+- (That split is the judgment work of this case. AOM doesn't set tenure standards or own the rankings, and a plan that quietly assumes otherwise is worthless.)
 
-## Task 3. Communicate (13 min)
+## Task 3. Recommend (13 min)
 
 Turn the analysis into a one-page recommendation using the Pyramid Principle, answer first, then supporting arguments, then evidence:
 
 ```
 Write a one-page Pyramid-Principle recommendation to the AOM Board
 of Governors: lead with the answer, then 3 supporting arguments,
-each grounded in data-room evidence. Respect the engagement's
-non-goals (no lowering of standards, no attacking journals).
-Write it to recommendation.md.
+each grounded in data-room evidence. Give each recommended move a
+sequence (next 12 months vs. later) and one indicator AOM could
+actually measure. Respect the non-goals: no lowering of standards,
+no attacking journals, and don't restate the framework back to the
+people who wrote it. Write it to recommendation.md.
 ```
 
-Then edit like a partner reviewing an associate's draft: is the lead actually the answer? Would the Board find any sentence naive?
+Then edit like a partner reviewing an associate's draft: is the lead actually the answer? Is any move something AOM lacks the authority to do? Would a Board member find any sentence naive?
+
+**One more test, if you have a minute:** ask it *"which of these has AACSB already announced it will do in its own Phase 2?"* Duplicating your partner's roadmap is a real way to lose a client.
 
 **Stretch goal:** "Render recommendation.md as a single clean HTML slide I can open in a browser."
 

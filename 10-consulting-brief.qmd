@@ -21,26 +21,38 @@ The Consultant's OS is a framework for how consultants actually work: **four imp
 | 14:15–14:20 | 5 min | **Welcome**, introductions; laptops out NOW so setup issues surface early |
 | 14:20–14:28 | 8 min | **How Consultants Work**, Consultant's OS framework (4 imperatives, 8 competencies); the 80/20 hypothesis |
 | 14:28–14:36 | 8 min | **Live Demo**, one end-to-end pass: research synthesis → issue tree → slide outline |
-| 14:36–15:14 | 38 min | **Hands-On Case: Client = AOM**, clone the data room; diagnose (12), MECE issue tree (13), Pyramid-Principle recommendation (13) |
+| 14:36–15:14 | 38 min | **Hands-On Case: Client = AOM**, clone the data room; assess (12), MECE issue tree (13), Pyramid-Principle recommendation (13) |
 | 15:14–15:23 | 9 min | **Debrief**, groups of 3–4, then full-room patterns |
 | 15:23–15:38 | 15 min | **Research Implications**, "What should we be studying?", shared doc on screen |
 | 15:38–15:45 | 7 min | **Wrap-Up + Q&A**, resources, prompt templates, opt-in list |
 
 ## The case: client = the Academy of Management
 
-The Academy of Management has engaged your team to answer one question: why does management research, tens of thousands of brilliant scholars producing rigorous work, have so little visible influence on how organizations are actually managed, and what should AOM do about it? Your data room reveals a system of interlocking incentives: promotion-and-tenure standards that reward A-journal hits over real-world impact, journals and rankings whose gatekeeping power functions like a monopoly on what "counts," and a publishing model whose intended end users, managers, have largely stopped reading. Your job is to find the innovation opportunities hiding inside that locked system, open research infrastructure, new research products and practitioner channels, incentive redesign, and recommend to the Board where AOM should move first.
+Two things happened in the last ten weeks, and together they are why this engagement exists.
 
-*(In-room framing: imagine the Board has engaged your team, a hypothetical mandate, real data.)*
+**The field published its answer.** On 26 May 2026, a task force of ten scholarly and accrediting organizations released *A Framework for Research Impact: Insights, Pathways, and Calls to Action*. AOM was a lead partner, and **three consecutive AOM presidents sat on the task force**: Sharon Alvarez, Peter Bamberger, and current President Tammy L. Madsen.
+
+**The accreditor made it binding.** On 1 July 2026, four weeks ago, the 2026 AACSB Global Standards took effect. Standard 8, "Impact of Scholarship," now requires accredited schools to show they "encourage, support, and reward the creation of intellectual contributions that have impact beyond traditional scholarly metrics." The framework is advice. Standard 8 is a requirement, and it binds the employers of most people in this room.
+
+So the thirty-year rigor-and-relevance argument has finally produced an instrument with consequences, and the AOM Board of Governors has engaged your team to answer one question: **Standard 8 is in force and we helped write the thinking behind it. What is AOM's play?**
+
+*(In-room framing: imagine the Board has engaged your team, a hypothetical mandate, real documents and real data.)*
+
+### The constraint that makes this hard
+
+The framework's central practical move is "start where you have agency," and the agency it names belongs to deans: promotion and tenure criteria, hiring, resource allocation. **AOM is not a business school.** It sets no tenure standard, hires no faculty, allocates no research budget. Its Assessment Tool is keyed to a school's mission statement and its AACSB questionnaire return, neither of which an association has.
+
+And the framework barely says what associations should do. Business school leaders get a dense page of imperatives; accrediting bodies get a full page. **Academies and scholarly associations get five bullets, about 120 words.** The task force said Phase 2 is implementation. For associations, Phase 2 is a blank page. Filling it is your job.
 
 ### The mandate is both/and
 
-Rigor is the crown jewel and it is **not on the table**. The Board's question is how to pair rigor with impact, in Akerlof's terms, the field's sins are of omission, not commission. Explicit **non-goals**: lowering standards, impact-washing, attacking journals or people. If your recommendation reads as "publish less rigorously," you've misread the client.
+Rigor is the crown jewel and it is **not on the table**. The framework says so itself, and prints its own dissenters at length. Explicit **non-goals**: lowering standards, impact-washing, attacking journals or people, and restating the framework back to the Board, who co-wrote it. If your recommendation reads as "publish less rigorously," you've misread the client.
 
 ### About the data
 
-The data room's quantitative files are **real**, journal metrics and field trends computed from [OpenAlex](https://openalex.org), plus public AOM figures, and its `documents/` folder summarizes real, cited literature (Akerlof, Heckman, the RRBM position paper). The `interviews/` folder contains **illustrative composites**, clearly labeled as such: realistic role-based perspectives (a journal editor, a dean, a practitioner, a PhD student), not quotes from real people. The factual weight rests on the real documents and data.
+The data room contains the **full 46-page framework** as a PDF, so Claude Code reads the primary source rather than a summary. Its quantitative files are **real**, journal metrics and field trends computed from [OpenAlex](https://openalex.org) plus public AOM figures, and `documents/` summarizes real, cited literature (Akerlof, Heckman, RRBM). The `interviews/` folder contains **illustrative composites**, clearly labeled: realistic role-based perspectives (a journal editor, a dean, a practitioner, a PhD student), not quotes from real people.
 
-Why this client? Because everyone in the room is a domain expert, which means you can actually exercise the judgment 20%. You'll spot where the AI's synthesis is glib or politically naive. That's the session's thesis, felt firsthand.
+Why this client? Because everyone in the room is a domain expert, which means you can actually exercise the judgment 20%. The AI will confidently propose things AOM cannot do, like changing tenure standards, or things already announced by someone else. You'll catch it. That's the session's thesis, felt firsthand.
 
 ## What to have ready
 

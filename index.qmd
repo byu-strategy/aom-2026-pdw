@@ -18,7 +18,7 @@ Build and deploy a live web app, Research Scout, a literature scanner on the Ope
 
 **Loews Philadelphia Hotel, Third Floor, Washington A · Session 17785**
 
-Work a real consulting engagement, client: the Academy of Management itself, through an AI-augmented workflow: diagnose, structure, recommend.
+Work a real consulting engagement, client: the Academy of Management itself, four weeks after a new accreditation standard changed the stakes. Assess, structure, recommend.
 
 → Start at the [Consulting brief](10-consulting-brief.qmd)
 

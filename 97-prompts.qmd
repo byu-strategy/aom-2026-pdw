@@ -18,27 +18,47 @@ API pattern:
 https://api.openalex.org/works?search=TOPIC&filter=from_publication_date:2022-01-01&sort=cited_by_count:desc
 ```
 
-### Consulting case: diagnose
+### Consulting case: assess
 
 ```
-Read this data room and give me the 5 key facts and your hypothesis
-on why impact lags.
+Read documents/a-framework-for-research-impact-2026.pdf and this
+whole data room. The framework assigns five imperatives to
+"Academies and Scholarly Associations." Against those five, where
+is AOM already strong, where is it weak, and what is the binding
+constraint?
 ```
 
 ### Consulting case: structure
 
 ```
-Build a MECE issue tree for: "How can AOM increase the real-world
-impact of management scholarship?" Ground each branch in evidence
-from the data room. Write it to issue-tree.md.
+Build a MECE issue tree for: "What should AOM do now that Standard 8
+is in force?" Split the tree by what AOM controls (journals, the
+annual meeting, divisions, awards, member communications) versus
+what it can only influence (tenure standards, rankings, publishers,
+accreditation). Ground each branch in evidence from the data room.
+Write it to issue-tree.md.
 ```
 
-### Consulting case: communicate
+### Consulting case: recommend
 
 ```
 Write a one-page Pyramid-Principle recommendation to the AOM Board
 of Governors: lead with the answer, then 3 supporting arguments,
-each grounded in data-room evidence. Write it to recommendation.md.
+each grounded in data-room evidence. Give each recommended move a
+sequence (next 12 months vs. later) and one indicator AOM could
+actually measure. Respect the non-goals: no lowering of standards,
+no attacking journals, and don't restate the framework back to the
+people who wrote it. Write it to recommendation.md.
+```
+
+### Consulting case: the naivety check
+
+Use after any of the above. This is the prompt that surfaces the judgment 20%.
+
+```
+Which of your recommendations assumes authority AOM does not have,
+and which duplicate something AACSB has already announced for its
+own Phase 2?
 ```
 
 ## General-purpose prompts
