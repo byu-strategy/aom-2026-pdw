@@ -30,4 +30,4 @@ Ten seed questions to react to:
 10. Does "artificial certainty" among newly-empowered non-technical builders create a new class of organizational risk, and who is accountable for citizen-built software? [Leonardi et al. 2026, doi.org/10.1287/orsc.2023.18224; Carroll et al. 2023, doi.org/10.17705/2msqe.00076]
 11. When building institutional infrastructure no longer requires engineers, who actually builds it, and what happens to the IT and institutional-research functions that used to gatekeep it? Live case: AACSB Standard 8 took effect 1 July 2026, creating sudden demand at every accredited school for impact tooling nobody has, at the exact moment tools like the one you just built stopped requiring a budget request. [Cf. the 2026 *Framework for Research Impact*, which names AI as one of three forces demanding urgent attention]
 
-Hailey stays up front during this segment as the practitioner reality-check: *would that matter in industry?*
+As the room reacts, put each question to the practitioner test: *would that matter in industry?* Hailey will be up front to answer exactly that, use her.

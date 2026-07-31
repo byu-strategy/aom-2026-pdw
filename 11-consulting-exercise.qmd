@@ -13,8 +13,6 @@ git clone https://github.com/byu-strategy/aom-impact-dataroom.git
 cd aom-impact-dataroom
 ```
 
-*(Repo is live.)*
-
 Open the folder in VS Code (File → Open Folder), open a terminal, run `claude`. Skim the `README.md`, it's the engagement brief. The folder is a consultant's data dump: the **full 46-page 2026 research impact framework** as a PDF in `documents/`, real OpenAlex-derived CSVs in `data/`, one-page summaries of the key literature, and clearly-labeled composite interviews in `interviews/`.
 
 ::: {.callout-note}
