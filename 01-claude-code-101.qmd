@@ -14,9 +14,21 @@ Claude Code is **agentic AI in your editor**. A chatbot answers questions; Claud
 
 You describe what you want in plain English. It plans, acts, and shows you what it did. You approve or redirect.
 
+## Why a terminal, of all things?
+
+If the black window with the blinking cursor feels like a step backward, a short history explains why it isn't.
+
+In the beginning, the command line was the only way to use a computer: powerful, but you had to memorize the machine's language. The Mac (1984) and Windows (1985) fixed that with a clever compromise. Instead of teaching humans to speak computer, designers pre-translated: every menu, button, and dialog box is a designer's advance guess at what you might want, frozen into clickable form. Windows and windows exist because, for forty years, pictures you could point at beat text you had to remember.
+
+But the compromise had a cost we stopped noticing: a graphical app can only do what its designer anticipated. Your intent has to be squeezed into the app's vocabulary, File, Insert, Format, twelve clicks across three dialogs. That trade made sense for as long as the alternative, a computer that simply understands what you want, was science fiction. The GUI was never the natural way to use a computer. It was a forty-year workaround for the fact that computers couldn't understand English.
+
+Now they can, and text is exactly what AI models are best at. One typed sentence of intent replaces the designer's guesses, and the pre-built menus start to get in the way, a ceiling instead of a convenience. Which is why the terminal, of all things, came back: it's where text in, text out is native, where everything the machine can do is reachable (not just what a designer exposed), and where an AI can actually *act*, reading files, writing files, running programs, instead of just chatting. Notice what the frontier AI tools look like: Claude Code, OpenAI's Codex CLI, Google's Gemini CLI. The most advanced interfaces of 2026 look like 1979, on purpose.
+
+Here's the practical upshot. The terminal and VS Code have been developer-only tools for their entire existence, gatekept by syntax. That gate just fell. The scary black window is now arguably the *least* technical interface ever shipped, because it's the first one that speaks your language instead of making you learn its. There's no reason these tools stay confined to engineering, they're now general-purpose instruments for anyone who works with documents, data, and ideas, with the same potential for ubiquity Excel and Word had when spreadsheets and word processing stopped being specialist skills. You're learning them at the moment they cross over.
+
 ## Why this is no longer an engineering tool
 
-Two years ago this workflow required knowing how to code. The interface was the barrier. That barrier is gone: the interface is now natural language, and the AI handles translation into code, commands, and file operations. What's left for you is the part that was always the hard part, knowing **what** to ask for, judging whether the output is **right**, and deciding what to do **next**. That's a consultant's skill set. It's a product manager's skill set. It's a researcher's skill set.
+Two years ago this workflow still required knowing how to code; the AI now handles the translation into code, commands, and file operations. What's left for you is the part that was always the hard part, knowing **what** to ask for, judging whether the output is **right**, and deciding what to do **next**. That's a consultant's skill set. It's a product manager's skill set. It's a researcher's skill set.
 
 Both workshops are built on that premise, and both let you test it against your own experience.
 
