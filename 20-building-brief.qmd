@@ -20,6 +20,75 @@ This is not a claim you have to take from us. In May 2026 the Global Research Im
 
 Your field's own governing documents now say what this workshop is about. The open question is what any of us does on Monday, which is why you're going to build something instead of hearing about it.
 
+## How we got here: the "vibe coding" moment
+
+The practice you'll use today acquired its name on February 2, 2025, when Andrej Karpathy, a founding member of OpenAI, posted this:
+
+::: tweet-center
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+There's a new kind of coding I call "vibe coding", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper…
+
+</p>
+
+— Andrej Karpathy (\@karpathy) <a href="https://twitter.com/karpathy/status/1886192184808149383">February 2, 2025</a>
+
+</blockquote>
+:::
+
+The term went viral; by November 2025 Collins Dictionary had named it Word of the Year. The idea underneath it is the one this session tests: English is now a programming language.
+
+It is also economically real, not a demo-day curiosity. In March 2025, Y Combinator managing partner Jared Friedman [reported](https://www.youtube.com/watch?v=IACHfKmZMr8) that a quarter of YC's Winter 2025 batch had codebases that were 95% AI-generated. By August, YC co-founder Paul Graham had moved from skeptic to convert:
+
+::: tweet-center
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+Vibe coding is here to stay. I'd been worried it might be a fad, but I talked to the founder of an infrastructure company who's in a position to see how well vibe-coded apps are doing, and he said a lot of them are making money.
+
+</p>
+
+— Paul Graham (\@paulg) <a href="https://twitter.com/paulg/status/1956458026652799173?ref_src=twsrc%5Etfw"> August 15, 2025 </a>
+
+</blockquote>
+:::
+
+And the skill boundary is moving inside firms, not just startups. Two days before Graham's post, Shopify's COO redrew the product manager job description in public:
+
+::: tweet-center
+<blockquote class="twitter-tweet">
+
+<p lang="en" dir="ltr">
+
+We are adding a coding section to all of our Product Managers interviews at <a href="https://twitter.com/Shopify?ref_src=twsrc%5Etfw">\@Shopify</a>.<br><br> We'll start with APM interviews. We expect candidates to build a prototype of the product they suggested in the case interview.<br><br> There is no excuse for PMs not building prototypes.
+
+</p>
+
+— Kaz Nejatian (\@CanadaKaz) <a href="https://twitter.com/CanadaKaz/status/1955629733460562404?ref_src=twsrc%5Etfw"> August 13, 2025 </a>
+
+</blockquote>
+:::
+
+Which is exactly the disruption in this session's title, and Ethan Mollick has already framed it as our kind of problem:
+
+::: tweet-center
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+The fight over what a product manager does is going to among the first major AI organizational design problems faced by companies.<br><br>It is a job right at the center of what AI can do with first pass coding, marketing, design, ideation, etc. Who will own which pieces up for grabs. <a href="https://t.co/XkJQYOu9N9">https://t.co/XkJQYOu9N9</a>
+</p>
+— Ethan Mollick (\@emollick) <a href="https://twitter.com/emollick/status/1984682445946421505?ref_src=twsrc%5Etfw">November 1, 2025</a>
+</blockquote>
+:::
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
+
+The debate has two live sides, and both will be in this room. Skeptics argue vibe coding breeds a shallow relationship with code: builders who don't understand their own systems, eroded problem-solving skill, bugs nobody can trace, accountability nobody holds. The market has even produced "vibe code cleanup specialists," engineers hired to remediate carelessly generated [AI slop](https://en.wikipedia.org/wiki/AI_slop). Supporters answer that this is the same evolution compilers started: each layer of abstraction frees humans from syntax so they can spend their attention on design, logic, and impact. Both sides are describing the same 80/20 line from different ends, and in about half an hour you'll have your own primary data on where it sits. (One terminology note: because "vibe coding" often earns its unserious reputation, we'll mostly say *building with AI* or *agentic coding*, with the expectation of judgment and verification those terms imply.)
+
 ## Agenda
 
 | Clock | Length | Segment |
