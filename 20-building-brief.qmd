@@ -95,7 +95,7 @@ The debate has two live sides, and both will be in this room. Skeptics argue vib
 |-------|--------|---------|
 | 12:45–12:50 | 5 min | **Welcome**, introductions; start any remaining tool installs NOW in the background |
 | 12:50–13:00 | 10 min | **The Transformation**, full-stack product builder framework; skills-compression thesis; 80/20 reality |
-| 13:00–13:10 | 10 min | **Practitioner Voice: Hailey Krey**, how AI has changed her day-to-day work: what she builds now that she couldn't before, what her team stopped hiring for, where judgment still lives. 6–7 min talk + moderated Q&A |
+| 13:00–13:10 | 10 min | **Practitioner Voice: Hailey Krey** (incoming PhD student, University of Utah), how AI has changed her day-to-day work: what she builds now that she couldn't before, what her team stopped hiring for, where judgment still lives. 6–7 min talk + moderated Q&A |
 | 13:10–13:20 | 10 min | **Live Building Demo**, natural-language idea → generated code → iterate → working prototype, including a failure |
 | 13:20–14:15 | 55 min | **Hands-On Build: Research Scout**, scaffold (10), iterate (25), deploy to Vercel (10), reflect (5) |
 | 14:15–14:25 | 10 min | **Debrief**, small groups, then full-room patterns |
